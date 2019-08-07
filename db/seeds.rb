@@ -8,7 +8,8 @@ puts 'Creating flats...'
     address: Faker::Address.full_address,
     description: 'A lovely summer feel for this spacious garden flat. Two double bedrooms, open plan living area, large kitchen and a beautiful conservatory',
     price_per_night: rand(30..250),
-    number_of_guests: rand(1..10)
+    number_of_guests: rand(1..10),
+    picture_url: 'https://source.unsplash.com/1600x900/?flats'
   )
 end
 puts 'Flats created...'
